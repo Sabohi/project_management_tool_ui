@@ -1,24 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import ResourceCards from './Graphics/ResourceCards.jsx';
+// import ResourceList from './Data/ResourceList.json';
+import TestApi from './TestApi.js';
+
+// import FormRender from './Forms/JrfForm.jsx';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <ResourceCards resourceList = {ResourceList}/> */}
+      {/* <FormRender /> */}
+      <TestApi />
     </div>
   );
 }

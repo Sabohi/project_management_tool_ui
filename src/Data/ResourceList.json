@@ -1,0 +1,37 @@
+{
+    "315" : {
+        "name" : "Sabuhi Zaidi",
+        "email" : "sabohi.zaidi@c-zentrix.com",
+        "mobile": "8527815746",
+        "Desk Phone" : "91 124 479 3998",
+        "Job role" : "Software Developer",
+        "Skill Set" : "PHP, JS",
+        "Department" : "Development",
+        "Location" : "Gurugram",
+        "Reporting Manager" : "Vikas Kapoor"
+    },
+    "316" : {
+        "name" : "Sumbul Zarreen",
+        "email" : "sumbul.zarreen@c-zentrix.com",
+        "mobile": "8527878786",
+        "Desk Phone" : "91 124 479 3990",
+        "Job role" : "Software Developer",
+        "Skill Set" : "PHP, JS",
+        "Department" : "Development",
+        "Location" : "Gurugram",
+        "Reporting Manager" : "Amit Kapoor"
+    },
+    "270" :
+    {
+        "name" : "Rituraj Singhal",
+        "email" : "rituraj.singhjal@c-zentrix.com",
+        "mobile": "8877815746",
+        "Desk Phone" : "91 124 479 3992",
+        "Job role" : "Software Developer",
+        "Skill Set" : "PHP, JS, Node",
+        "Department" : "Development",
+        "Location" : "Gurugram",
+        "Reporting Manager" : "Kamlesh Tiwari"
+    }
+}
+
