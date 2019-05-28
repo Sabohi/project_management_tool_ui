@@ -5,7 +5,6 @@ import SimpleCard from './../Components/SimpleCard';
 class RenderComponent extends React.Component{
     render(){
         let dashboardComponent = null;
-    
         let element = this.props.componentType;
         switch(element){
             case 'mediaCard':

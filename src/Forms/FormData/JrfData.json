@@ -1,0 +1,38 @@
+{  
+"jsonForm" : {
+    "jrf_id" : {
+      "elementType" : "input",
+      "elementConfig" : {
+       "variant" : "outlined",
+       "margin" : "dense",
+       "rows" : "2",
+       "rowsMax" : "3",
+       "label" : "JRD Id *",
+       "InputLabelProps" : {
+          "shrink" : "true"
+        },
+        "helperText" : ""
+      },
+      "value" : "",
+      "validation" : { "required" : "true" },
+      "valid" : "true"
+    },
+    "jrf_name" : {
+      "elementType" : "input",
+      "elementConfig" : {
+       "variant" : "outlined",
+       "margin" : "dense",
+       "rows" : "2",
+       "rowsMax" : "3",
+       "label" : "JRF Name *",
+       "InputLabelProps" : {
+          "shrink" : "true"
+        },
+        "helperText" : ""
+      },
+      "value" : "",
+      "validation" : { "required" : "true" },
+      "valid" : "true"
+    }
+  }  
+}
