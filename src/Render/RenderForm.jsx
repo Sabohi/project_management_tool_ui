@@ -14,7 +14,6 @@ import DialogContent from "@material-ui/core/DialogContent";
 import LinearProgress from "@material-ui/core/LinearProgress";
 import checkValidity from "./../Forms/FieldValidator.jsx";
 import isFormValid from "./../Forms/FormValidSetter.jsx";
-
 import { withStyles } from "@material-ui/core/styles";
 import { Typography } from "@material-ui/core";
 
@@ -145,8 +144,14 @@ class RenderForm extends Component {
     );
 
     return (
-      <div>
-        <Card className={classes.card} style={{ width: "100%" }}>
+      <Grid
+        container
+       // direction="row-reverse"
+        justify="center"
+        alignItems="center"
+        style={{marginTop:"17px"}}
+      >
+        <Card className={classes.card} style={{ width: "50%" }}>
           {Loader}
           <CardContent>
             <ErrorBoundary>{form}</ErrorBoundary>
@@ -173,7 +178,7 @@ class RenderForm extends Component {
         >
           <DialogTitle id="alert-dialog-title">
             <Typography variant="body2">
-              Ticket updated Successfully.
+              JRF updated Successfully.
             </Typography>
           </DialogTitle>
           <DialogContent>
@@ -187,7 +192,7 @@ class RenderForm extends Component {
             </Button>
           </DialogActions>
         </Dialog>
-      </div>
+      </Grid>
     );
   }
 }
